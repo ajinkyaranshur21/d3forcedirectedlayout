@@ -1,0 +1,1 @@
+{"nodes":[{"id":"Alice","color":"red","value":1.0},{"id":"Bob","color":"yellow","value":2.0},{"id":"Carol","color":"blue","value":3.0},{"id":"Henry","color":"pink","value":4.0}],"links":[{"source":0,"target":1,"distance":10},{"source":1,"target":2,"distance":20},{"source":2,"target":3,"distance":30}]}
