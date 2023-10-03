@@ -1,1 +1,6 @@
-{"nodes":[{"id":"Alice","color":"red","value":1.0},{"id":"Bob","color":"yellow","value":2.0},{"id":"Carol","color":"blue","value":3.0},{"id":"Henry","color":"pink","value":4.0}],"links":[{"source":0,"target":1,"distance":10},{"source":1,"target":2,"distance":20},{"source":2,"target":3,"distance":30}]}
+{"nodes":[{"id":"Alice","color":"red","start":1,"end":2},{"id":"Bob","color":"yellow","start":2,"end":3},{"id":"Carol","color":"blue","start":2,"end":3},{"id":"Henry","color":"pink","start":3,"end":4}],"links": [
+    {"source": "Alice", "target": "Bob", "distance": 10,"start":1,"end":2},
+    {"source": "Bob", "target": "Carol", "distance": 20,"start":2,"end":3},
+    {"source": "Carol", "target": "Henry", "distance": 30,"start":3,"end":4}
+]
+}
